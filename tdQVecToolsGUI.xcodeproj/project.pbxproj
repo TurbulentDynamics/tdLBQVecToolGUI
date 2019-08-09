@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -164,7 +164,7 @@
 				};
 			};
 			buildConfigurationList = 22AB837222FD58D200B57ED9 /* Build configuration list for PBXProject "tdQVecToolsGUI" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -172,6 +172,9 @@
 				Base,
 			);
 			mainGroup = 22AB836E22FD58D200B57ED9;
+			packageReferences = (
+				220A101F22FD5FA1009C4213 /* XCRemoteSwiftPackageReference "tdQVecTools" */,
+			);
 			productRefGroup = 22AB837822FD58D200B57ED9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -468,6 +471,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		220A101F22FD5FA1009C4213 /* XCRemoteSwiftPackageReference "tdQVecTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TurbulentDynamics/tdQVecTools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 22AB836F22FD58D200B57ED9 /* Project object */;
 }

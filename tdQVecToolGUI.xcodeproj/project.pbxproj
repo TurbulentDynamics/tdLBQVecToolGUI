@@ -12,7 +12,7 @@
 		22AB837F22FD58E300B57ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AB837E22FD58E300B57ED9 /* Assets.xcassets */; };
 		22AB838222FD58E300B57ED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AB838122FD58E300B57ED9 /* Preview Assets.xcassets */; };
 		22AB838522FD58E300B57ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AB838322FD58E300B57ED9 /* Main.storyboard */; };
-		22AB839122FD58E300B57ED9 /* tdQVecToolsGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB839022FD58E300B57ED9 /* tdQVecToolsGUITests.swift */; };
+		22AB839122FD58E300B57ED9 /* tdQVecToolGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB839022FD58E300B57ED9 /* tdQVecToolGUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +26,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22AB837722FD58D200B57ED9 /* tdQVecToolsGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tdQVecToolsGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AB837722FD58D200B57ED9 /* tdQVecToolGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tdQVecToolGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AB837A22FD58D200B57ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22AB837C22FD58D200B57ED9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22AB837E22FD58E300B57ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22AB838122FD58E300B57ED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22AB838422FD58E300B57ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22AB838622FD58E300B57ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22AB838722FD58E300B57ED9 /* tdQVecToolsGUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tdQVecToolsGUI.entitlements; sourceTree = "<group>"; };
-		22AB838C22FD58E300B57ED9 /* tdQVecToolsGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tdQVecToolsGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22AB839022FD58E300B57ED9 /* tdQVecToolsGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tdQVecToolsGUITests.swift; sourceTree = "<group>"; };
+		22AB838722FD58E300B57ED9 /* tdQVecToolGUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tdQVecToolGUI.entitlements; sourceTree = "<group>"; };
+		22AB838C22FD58E300B57ED9 /* tdQVecToolGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tdQVecToolGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AB839022FD58E300B57ED9 /* tdQVecToolGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tdQVecToolGUITests.swift; sourceTree = "<group>"; };
 		22AB839222FD58E300B57ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,8 +60,8 @@
 		22AB836E22FD58D200B57ED9 = {
 			isa = PBXGroup;
 			children = (
-				22AB837922FD58D200B57ED9 /* tdQVecToolsGUI */,
-				22AB838F22FD58E300B57ED9 /* tdQVecToolsGUITests */,
+				22AB837922FD58D200B57ED9 /* tdQVecToolGUI */,
+				22AB838F22FD58E300B57ED9 /* tdQVecToolGUITests */,
 				22AB837822FD58D200B57ED9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,13 +69,13 @@
 		22AB837822FD58D200B57ED9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22AB837722FD58D200B57ED9 /* tdQVecToolsGUI.app */,
-				22AB838C22FD58E300B57ED9 /* tdQVecToolsGUITests.xctest */,
+				22AB837722FD58D200B57ED9 /* tdQVecToolGUI.app */,
+				22AB838C22FD58E300B57ED9 /* tdQVecToolGUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22AB837922FD58D200B57ED9 /* tdQVecToolsGUI */ = {
+		22AB837922FD58D200B57ED9 /* tdQVecToolGUI */ = {
 			isa = PBXGroup;
 			children = (
 				22AB837A22FD58D200B57ED9 /* AppDelegate.swift */,
@@ -83,10 +83,10 @@
 				22AB837E22FD58E300B57ED9 /* Assets.xcassets */,
 				22AB838322FD58E300B57ED9 /* Main.storyboard */,
 				22AB838622FD58E300B57ED9 /* Info.plist */,
-				22AB838722FD58E300B57ED9 /* tdQVecToolsGUI.entitlements */,
+				22AB838722FD58E300B57ED9 /* tdQVecToolGUI.entitlements */,
 				22AB838022FD58E300B57ED9 /* Preview Content */,
 			);
-			path = tdQVecToolsGUI;
+			path = tdQVecToolGUI;
 			sourceTree = "<group>";
 		};
 		22AB838022FD58E300B57ED9 /* Preview Content */ = {
@@ -97,21 +97,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		22AB838F22FD58E300B57ED9 /* tdQVecToolsGUITests */ = {
+		22AB838F22FD58E300B57ED9 /* tdQVecToolGUITests */ = {
 			isa = PBXGroup;
 			children = (
-				22AB839022FD58E300B57ED9 /* tdQVecToolsGUITests.swift */,
+				22AB839022FD58E300B57ED9 /* tdQVecToolGUITests.swift */,
 				22AB839222FD58E300B57ED9 /* Info.plist */,
 			);
-			path = tdQVecToolsGUITests;
+			path = tdQVecToolGUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22AB837622FD58D200B57ED9 /* tdQVecToolsGUI */ = {
+		22AB837622FD58D200B57ED9 /* tdQVecToolGUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AB839522FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolsGUI" */;
+			buildConfigurationList = 22AB839522FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolGUI" */;
 			buildPhases = (
 				22AB837322FD58D200B57ED9 /* Sources */,
 				22AB837422FD58D200B57ED9 /* Frameworks */,
@@ -121,14 +121,14 @@
 			);
 			dependencies = (
 			);
-			name = tdQVecToolsGUI;
+			name = tdQVecToolGUI;
 			productName = tdQVecToolsGUI;
-			productReference = 22AB837722FD58D200B57ED9 /* tdQVecToolsGUI.app */;
+			productReference = 22AB837722FD58D200B57ED9 /* tdQVecToolGUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22AB838B22FD58E300B57ED9 /* tdQVecToolsGUITests */ = {
+		22AB838B22FD58E300B57ED9 /* tdQVecToolGUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AB839822FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolsGUITests" */;
+			buildConfigurationList = 22AB839822FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolGUITests" */;
 			buildPhases = (
 				22AB838822FD58E300B57ED9 /* Sources */,
 				22AB838922FD58E300B57ED9 /* Frameworks */,
@@ -139,9 +139,9 @@
 			dependencies = (
 				22AB838E22FD58E300B57ED9 /* PBXTargetDependency */,
 			);
-			name = tdQVecToolsGUITests;
+			name = tdQVecToolGUITests;
 			productName = tdQVecToolsGUITests;
-			productReference = 22AB838C22FD58E300B57ED9 /* tdQVecToolsGUITests.xctest */;
+			productReference = 22AB838C22FD58E300B57ED9 /* tdQVecToolGUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 22AB837222FD58D200B57ED9 /* Build configuration list for PBXProject "tdQVecToolsGUI" */;
+			buildConfigurationList = 22AB837222FD58D200B57ED9 /* Build configuration list for PBXProject "tdQVecToolGUI" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -173,14 +173,14 @@
 			);
 			mainGroup = 22AB836E22FD58D200B57ED9;
 			packageReferences = (
-				220A101F22FD5FA1009C4213 /* XCRemoteSwiftPackageReference "tdQVecTools" */,
+				22327B102301931F00405388 /* XCRemoteSwiftPackageReference "tdQVecTool" */,
 			);
 			productRefGroup = 22AB837822FD58D200B57ED9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22AB837622FD58D200B57ED9 /* tdQVecToolsGUI */,
-				22AB838B22FD58E300B57ED9 /* tdQVecToolsGUITests */,
+				22AB837622FD58D200B57ED9 /* tdQVecToolGUI */,
+				22AB838B22FD58E300B57ED9 /* tdQVecToolGUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AB839122FD58E300B57ED9 /* tdQVecToolsGUITests.swift in Sources */,
+				22AB839122FD58E300B57ED9 /* tdQVecToolGUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +228,7 @@
 /* Begin PBXTargetDependency section */
 		22AB838E22FD58E300B57ED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22AB837622FD58D200B57ED9 /* tdQVecToolsGUI */;
+			target = 22AB837622FD58D200B57ED9 /* tdQVecToolGUI */;
 			targetProxy = 22AB838D22FD58E300B57ED9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,18 +362,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = tdQVecToolsGUI/tdQVecToolsGUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = tdQVecToolGUI/tdQVecToolsGUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "tdQVecToolsGUI/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "tdQVecToolGUI/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = tdQVecToolsGUI/Info.plist;
+				INFOPLIST_FILE = tdQVecToolGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.tdQVecToolsGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.tdQVecToolGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -383,18 +383,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = tdQVecToolsGUI/tdQVecToolsGUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = tdQVecToolGUI/tdQVecToolsGUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "tdQVecToolsGUI/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "tdQVecToolGUI/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = tdQVecToolsGUI/Info.plist;
+				INFOPLIST_FILE = tdQVecToolGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.tdQVecToolsGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.tdQVecToolGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -416,7 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TD.tdQVecToolsGUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tdQVecToolsGUI.app/Contents/MacOS/tdQVecToolsGUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tdQVecToolGUI.app/Contents/MacOS/tdQVecToolGUI";
 			};
 			name = Debug;
 		};
@@ -436,14 +436,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TD.tdQVecToolsGUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tdQVecToolsGUI.app/Contents/MacOS/tdQVecToolsGUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tdQVecToolGUI.app/Contents/MacOS/tdQVecToolGUI";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22AB837222FD58D200B57ED9 /* Build configuration list for PBXProject "tdQVecToolsGUI" */ = {
+		22AB837222FD58D200B57ED9 /* Build configuration list for PBXProject "tdQVecToolGUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22AB839322FD58E300B57ED9 /* Debug */,
@@ -452,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AB839522FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolsGUI" */ = {
+		22AB839522FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolGUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22AB839622FD58E300B57ED9 /* Debug */,
@@ -461,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AB839822FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolsGUITests" */ = {
+		22AB839822FD58E300B57ED9 /* Build configuration list for PBXNativeTarget "tdQVecToolGUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22AB839922FD58E300B57ED9 /* Debug */,
@@ -473,9 +473,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		220A101F22FD5FA1009C4213 /* XCRemoteSwiftPackageReference "tdQVecTools" */ = {
+		22327B102301931F00405388 /* XCRemoteSwiftPackageReference "tdQVecTool" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/TurbulentDynamics/tdQVecTools.git";
+			repositoryURL = "https://github.com/TurbulentDynamics/tdQVecTool.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.1.0;

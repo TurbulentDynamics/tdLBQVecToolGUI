@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "f4240bf022a69815241a883c03645444b58ac553",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "tdQvecTools",
+        "repositoryURL": "https://github.com/TurbulentDynamics/tdQVecTool.git",
+        "state": {
+          "branch": null,
+          "revision": "f360daf2655df7325521f1968fd4c2403cf1780b",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

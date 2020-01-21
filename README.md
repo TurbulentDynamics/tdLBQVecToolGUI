@@ -8,4 +8,5 @@ This repo provides a graphic utility to read tdQVec files and display either vec
 This app is built with SwiftUI and can be used on MacOS or iPad and will use Metal for vector visualisation.
 
 
+![Impeller Vorticity](Impeller_Vorticity.jpg)
 
